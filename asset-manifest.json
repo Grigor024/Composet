@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Composet/static/css/main.c5650542.css",
+    "main.js": "/Composet/static/js/main.a6b86b99.js",
+    "static/js/453.67d82dbc.chunk.js": "/Composet/static/js/453.67d82dbc.chunk.js",
+    "static/media/bag-background.png": "/Composet/static/media/bag-background.f62cb93e830cce1957a2.png",
+    "static/media/beltimg.png": "/Composet/static/media/beltimg.ea89cce90475aacd9885.png",
+    "static/media/beltimg_6.png": "/Composet/static/media/beltimg_6.ea89cce90475aacd9885.png",
+    "index.html": "/Composet/index.html",
+    "main.c5650542.css.map": "/Composet/static/css/main.c5650542.css.map",
+    "main.a6b86b99.js.map": "/Composet/static/js/main.a6b86b99.js.map",
+    "453.67d82dbc.chunk.js.map": "/Composet/static/js/453.67d82dbc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c5650542.css",
+    "static/js/main.a6b86b99.js"
+  ]
+}
