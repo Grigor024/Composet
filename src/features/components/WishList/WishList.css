@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+}
+
+.body-wish{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding-top: 30px;
+    gap: 30px;
+    background-color: black;
+}
+
+.wish-collection{
+    width: 80%;
+    height: 690px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: rgb(76, 76, 76);
+}
+
+.wish-title{
+    width: 95%;
+    height: 30px;
+    padding-top: 20px;
+}
+
+.wish-collection-charms{
+    width: 95%;
+    height: 223px;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 50px;
+    /* flex-direction: column; */
+    /* background-color: #3B4048; */
+}
+
+.wish-products-block{
+    width: 200px;
+    height: 223px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+    /* background-color: #dde3ed; */
+}
+
+.wishList-heart{
+    width: 180px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.wish-products-block-img{
+    width: 200px;
+    height: 188px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #3B4048;
+}
+
+.wish-title-price{
+    width: 200px;
+    height: 34px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+
+.wish-products-block-title{
+    width: 130px;
+    height: 34px;
+}
+
+.wish-products-block-price{
+    width: 70px;
+    height: 34px;
+    font-weight: 600;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+.wishList-button{
+    width: 200px;
+    height: 34px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.no-items{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* ----------Modal----------- */
+
+.wish-modalSeeMore {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-color: rgba(40, 39, 39, 0.12);
+}
+
+.wish-modalSeeMoreBlock {
+    width: 660px;
+    height: 450px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #2F333A;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.wish-close {
+    cursor: pointer;
+}
+
+.wish-photo_inf {
+    width: 580px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.wish-photo {
+    width: 330px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #3B4048
+}
+
+
+.wish-inf {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 10px;
+    font-size: 14px;
+    gap: 10px;
+}
+
+.wish-circle {
+    width: 580px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-left: 20px;
+}
+
+.wish-circle button {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: rgb(117, 119, 121);
+    box-shadow: 1px 3px 10px 5px rgba(46, 46, 46, 0.74);
+}
+
+
+/* End of Modal */

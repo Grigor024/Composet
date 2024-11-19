@@ -1,0 +1,493 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+}
+
+.body_home {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    gap: 30px;
+}
+
+.collection {
+    width: 80%;
+    height: 690px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: rgb(76, 76, 76);
+}
+
+.title {
+    width: 95%;
+    height: 30px;
+    padding-top: 20px;
+    /* background-color: bisque; */
+}
+
+.collection_charms {
+    width: 80%;
+    height: 250px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    /* background-color:  rgb(78, 45, 45); */
+}
+
+.products_block {
+    width: 200px;
+    height: 223px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+    background-color: #3B4048;
+}
+
+.heart_block {
+    width: 300px;
+    display: flex;
+    justify-content: end;
+    padding-right: 15px;
+
+}
+
+.product_heart_block {
+    width: 200px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+    align-items: center;    
+}
+
+.products_image {
+    width: 69px;
+    height: 90px;
+}
+
+.products_block_title_price {
+    width: 200px;
+    height: 34px;
+    padding-left: 10px;
+    display: flex;
+}
+
+.product_title {
+    width: 120px;
+    padding-left: 5px;
+}
+
+.product_price {
+    width: 80px;
+    font-weight: 600;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+/* Modal */
+
+.open {
+    cursor: pointer;
+}
+
+.close_button {
+    width: 650px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+}
+
+.seeMore {
+    width: 160px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 12px;
+    /* background-color: aquamarine; */
+}
+
+
+/* ----------Modal----------- */
+
+.modalSeeMore {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-color: rgba(87 87 87 / 12%);
+}
+
+.modalSeeMoreBlock {
+    width: 660px;
+    height: 450px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #2F333A;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.close {
+    cursor: pointer;
+}
+
+.photo_inf {
+    width: 580px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.photo {
+    width: 330px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #3B4048
+}
+
+
+.inf {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 10px;
+    font-size: 14px;
+    gap: 10px;
+}
+
+.circle {
+    width: 580px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-left: 20px;
+}
+
+.circle button {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: rgb(117, 119, 121);
+    box-shadow: 1px 3px 10px 5px rgba(46, 46, 46, 0.74);
+}
+
+
+/* End of Modal */
+
+
+.belt {
+    width: 60%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: rgb(76, 76, 76);
+}
+
+.title_belt {
+    width: 85%;
+    display: flex;
+}
+
+.belt_block {
+    width: 80%;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    /* background-color: antiquewhite; */
+}
+
+.belt_block_color {
+    width: 115px;
+    height: 125px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.belt_title {
+    width: 115px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: antiquewhite; */
+
+}
+
+/* .belt_price {
+    width: 115px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+} */
+
+.belt_second {
+    width: 80%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-top: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.105);
+}
+
+.belt_second_up {
+    width: 70%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    /* background-color: antiquewhite; */
+}
+
+.refresh { 
+    width: 80%;
+    height: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* .beltPrice {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 10px;
+} */
+
+.imgOnBelt {
+    width: 50px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    /* padding-top: 10px; */
+    position: absolute;
+    
+}
+
+.title-belt-in-SecondBlock{
+    width: 80%;
+}
+
+.belt_price{
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    
+}
+
+.imgOnBelt_Block {
+    width: 80%;
+    /* height: 100px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: antiquewhite; */
+}
+
+.img_onBlock{
+    width: 75px;
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding-top: 5px;
+    gap: 30px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.block-for-imgBlock{
+    width: 80%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    /* background-color: aqua; */
+}
+
+
+.totalPrice {
+    width: 70%;
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.belt_second_down {
+    width: 70%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    /* background-color: antiquewhite; */
+}
+
+.belt_down_block {
+    width: 70px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.487);
+    border-radius: 5px;
+}
+
+.img-close{
+    width: 75px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.price_block{
+    width: 75px;
+    height: 10px;
+}
+
+.imgBlock-close{
+    position: absolute;
+    padding-left: 70px;
+}
+
+.button-imgBlock-close{
+    width: 15px;
+    height: 15px;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    color: rgb(255, 255, 255);
+    border-radius: 50px;
+    border: none;
+}
+
+.icon {
+    width: 90px;
+    display: flex;
+    gap: 10px;
+}
+
+.footer{
+    width: 80%;
+}
+
+.colorBlock_01{
+    width: 100px;
+    height: 100px;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background-color: #2e2c2c;
+}
+
+.colorBlock_02{
+    width: 100px;
+    height: 100px;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background-color: #BE9C83;
+}
+
+.colorBlock_03{
+    width: 100px;
+    height: 100px;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background-color: #6B4434;
+}
+
+.colorBlock_04{
+    width: 100px;
+    height: 100px;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background-color: #375446;
+}
+
+.colorBlock_05{
+    width: 100px;
+    height: 100px;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background-color: #2B3A58;
+}
+
+.colorBlock_06{
+    width: 100px;
+    height: 100px;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background-color: #822827;
+}
+

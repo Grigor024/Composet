@@ -1,0 +1,92 @@
+{
+    "bracelet":[
+        {
+            "id": "1",
+            "title": " Custom Name Bracelet V",
+            "img": "products/V.png",
+            "price": 499
+
+        },
+        {
+            "id": "2",
+            "title": "Custom Name Bracelet W",
+            "img": "products/W.png",
+            "price": 499
+
+        },
+        {
+            "id": "3",
+            "title": "Custom Name Bracelet X",
+            "img": "products/X.png",
+            "price": 499
+
+        },
+        {
+            "id": "4",
+            "title": "Custom Name Bracelet Clock",
+            "img": "products/clock.png",
+            "price": 499
+
+        },
+        {
+            "id": "5",
+            "title": "Custom Name Bracelet U3",
+            "img":"products/u 3.png",
+            "price": 499
+
+        },
+        {
+            "id": "6",
+            "title": "Custom Name Bracelet U4",
+            "img": "products/u 4.png",
+            "price": 499
+
+        }
+    ],
+    "belt": [
+        {
+            "id": "7",
+            "title": "Blu Mood",
+            "img": "mask/MaskBlue.png",
+            "price": 200
+        },
+        {
+            "id": "8",
+            "title": "Brown Mood",
+            "img": "mask/MaskBrown.png",
+            "price": 200
+        },
+        {
+            "id": "9",
+            "title": "Brown Mood",
+            "img": "mask/MaskBrown_1.png",
+            "price": 200
+        },
+        {
+            "id": "10",
+            "title": "White Mood",
+            "img": "mask/MaskWhite.png",
+            "price": 200
+        },
+        {
+            "id": "11",
+            "title": "Yellow Mood",
+            "img": "mask/MaskYellow.png",
+            "price": 200
+        },
+        {
+            "id": "12",
+            "title": "Black Mood",
+            "img": "mask/MaskBlack.png",
+            "price": 200
+        },
+        {
+            "id": "13",
+            "title": "Green Mood",
+            "img": "mask/MaskGreen.png",
+            "price": 200
+        }
+    ]
+   
+
+}
